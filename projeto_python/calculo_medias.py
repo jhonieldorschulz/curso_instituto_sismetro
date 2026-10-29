@@ -8,8 +8,8 @@ alunos = [
 def calcular_media(soma, qtde):
     return soma / qtde
 
-def status_aprovacao(nota, faltas): 
-    if nota >=7 and faltas < 10: 
+def status_aprovacao(nota): 
+    if nota >=7: 
         return 'Aprovado'
     return 'Reprovado'
 
